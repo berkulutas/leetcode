@@ -2,6 +2,6 @@
 
 | # | title | solution | basic idea |
 |---|---|---|---|
-| 1 | Two Sum Problem | link | use hash table |
+| 1 | Two Sum Problem | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/1_two_sum.cpp)| use hash table |
 
 
