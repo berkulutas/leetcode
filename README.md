@@ -1,6 +1,4 @@
-# my c++ solutions for leetcode problems
-
-  
+# my solutions for leetcode problems
 
 | # | title | solution | basic idea |
 |---|---|---|---|
