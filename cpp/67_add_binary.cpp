@@ -17,31 +17,31 @@ public:
         while (blen>=0) {
             if (a[alen] == '1' && b[blen] == '1') {
                 if (c) {
-                    result = "1" + result;
+                    result += "1";
                     c = 1;
                 }
                 else {
-                    result = "0" + result;
+                    result += "0";
                     c = 1;
                 }
             }
             else if (a[alen] == '0' && b[blen] == '0') {
                 if (c) {
-                    result = "1" + result;
+                    result += "1";
                     c = 0; 
                 }
                 else {
-                    result = "0" + result;
+                    result += "0";
                     c = 0; 
                 }
             }
             else {
                 if (c) {
-                    result = "0" + result;
+                    result += "0";
                     c = 1;
                 }
                 else {
-                    result = "1" + result; 
+                    result += "1";
                     c = 0; 
                 }
             }
@@ -52,21 +52,21 @@ public:
         while (alen>=0) {
             if (a[alen] == '1') {
                 if (c) {
-                    result = "0" + result;
+                    result += "0";
                     c = 1;
                 }
                 else {
-                    result = "1" + result;
+                    result += "1";
                     c = 0; 
                 }
             }
             else {
                 if (c) {
-                    result = "1" + result;
+                    result += "1";
                     c = 0; 
                 }
                 else {
-                    result = "0" + result; 
+                    result += "0";
                     c = 0; 
                 }
             }
@@ -75,8 +75,9 @@ public:
 
         
 
-        if (c) result = "1" + result;
+        if (c) result += "1";
 
+        reverse(result.begin(), result.end());
         return result; 
     }
 };
