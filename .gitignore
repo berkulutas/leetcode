@@ -4,3 +4,5 @@ a.out
 case.txt
 makefile
 .vscode
+test.dSYM
+test
