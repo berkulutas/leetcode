@@ -1,19 +1,22 @@
 class Solution {
 public:
 #define ll long long
+    int mySqrt(int x) {
+        ll int right = x;
+        ll int left = 0;
+        ll int mid = (right + left)/2;
 
-    ll mySqrt(ll x) {
-
-        for (ll i = 0; i < x+1; i++) {
-            if (i*i == x) {
-                return i; 
-            }
-            else if (i*i > x) {
-                return i-1;
-            }
-
-        }
-        return 0; 
+        while(left + 1 < right) {
+            // cout << "l: " << left << " m: " << mid << " r: " << right <<"\n"; 
+            if (mid*mid > x)
+                right = mid;
+            else if (mid*mid < x)
+                left = mid;
+            else
+                return mid;
             
+            mid = (right + left)/2;
+        }
+        return (right*right <= x) ? right : left; 
     }
 };
