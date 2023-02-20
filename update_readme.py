@@ -26,7 +26,7 @@ solutions_files = [f for f in solutions_files if f.endswith('.cpp')]
 solutions = []
 for filename in solutions_files:
     number, title = filename.split('_', maxsplit=1)
-    title = title[:-4].replace('_', ' ')
+    title = title[:-4].replace('_', ' ').title()
     link = f"[c++](https://github.com/berkulutas/leetcode/blob/main/cpp/{filename})"
     solutions.append((int(number), title, link))
 
