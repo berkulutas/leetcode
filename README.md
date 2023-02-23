@@ -11,6 +11,7 @@
 | 69 | Sqrt(x) | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/69_sqrt.cpp) | binary search O(logn) |
 | 103 | Binary Tree Zigzag Level Order Traversal | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/103_binary_tree_zigzag_level_order_traversal.cpp) | level order traversal. if level is odd reverse the order. |
 | 104 | Maximum Depth of Binary Tree | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/104_maximum_depth_of_binary_tree.cpp) | recursive |
+| 125 | Valid Palindrome | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/125_valid_palindrome.cpp) | two pointers. O(n) |
 | 128 | Longest Consecutive Sequence | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/128_longest_consecutive_sequence.cpp) | add all numbers to unordered set O(n). <br />For all numbers if it is a start increase currSeq until no more adjacent found. |
 | 136 | Single Number | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/136_single_number.cpp) | a^a=0. take xors of all elements to find unique one. Bit manupilation O(n) |
 | 217 | Contains Duplicate | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/217_contains_duplicate.cpp) | for every element check is it in set |
