@@ -23,6 +23,7 @@
 | 502 | IPO | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/502_ipo.cpp) | greedy problem use priority queue(max heap). Add projects which do not exceed the current capital(w) to pq. Pop the most profitable project(pq.top()), update w, reduce k. And do same while k > 0|
 | 530 | Minimum Absolute Difference In BST (same as 783)| [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/530_minimum_absolute_difference_in_BST.cpp) | inorder traversal. keep prev node's val. O(n) |
 | 540 | Single Element In A Sorted Array | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/540_single_element_in_a_sorted_array.cpp) | binary search. O(logn) |
+| 746 | Min Cost Climbing Stairs | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/746_min_cost_climbing_stairs.cpp) | DP. Time O(n). Space O(1) |
 | 783 | Minimum Distance Between BST Nodes (same as 530) | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/783_minimum_distance_between_bts_nodes.cpp) | inorder traversal. keep prev node's val. O(n)|
 | 989 | Add to Array-Form of Integer | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/989_add_to_array-form_of_integer.cpp) | add from rightmost digit to leftmost |
 | 1011 | Capacity To Ship Packages Within D Days | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/1011_capacity_to_ship_packages_within_d_days.cpp) | (monotonic) binary search. find the minimum weight capacity that can transport all the packages in the given number of days by checking if a certain capacity is possible or not. |
