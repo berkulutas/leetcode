@@ -9,6 +9,7 @@
 | 49 | Group Anagrams | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/49_group_anagrams.cpp) | use hashmap. add words' sorted version to map to find other words anagram or not |
 | 67 | Add Binary | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/67_add_binary.cpp) | go from rightmost to leftmost |
 | 69 | Sqrt(x) | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/69_sqrt.cpp) | binary search O(logn) |
+| 70 | Climbing Stairs | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/70_climbing_stairs.cpp) | DP Time: O(n), Space O(1). |
 | 103 | Binary Tree Zigzag Level Order Traversal | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/103_binary_tree_zigzag_level_order_traversal.cpp) | level order traversal. if level is odd reverse the order. |
 | 104 | Maximum Depth of Binary Tree | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/104_maximum_depth_of_binary_tree.cpp) | recursive |
 | 121 | Best Time To Buy And Sell Stock | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/121_best_time_to_buy_and_sell_stock.cpp) | while passing array consider minimum element so far and max profit. Time: O(n), Space: O(1).  |
