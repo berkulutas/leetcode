@@ -4,6 +4,7 @@
 |---|---|---|---|
 | 1 | Two Sum Problem | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/1_two_sum.cpp)| use hash table |
 | 2 | Add Two Numbers | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/2_add_two_numbers.cpp) | go from lower to higher consider nullptrs | 
+| 9 | Palindrome Number | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/9_palindrome_number.cpp) | revert number then return reverted == num. Time O(log(n)) Space O(1). |
 | 14 | Longest Common Prefix | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/14_longest_common_prefix.cpp) | find minimum length for a string. start from to first char that string and compare with others if char is common add it to result. when found not common char return result. |
 | 35 | Search Insert Position | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/35_search_insert_position.cpp) | binary search |
 | 36 | Valid Sudoku | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/36_valid_sudoku.cpp) | keep sets for columns, rows and 3x3 grids. For every element in 9x9 grid put it corresponding colum, row and grid position. <br /> If element already exists one of the sets grid is not valid. O(81) = O(1) |
