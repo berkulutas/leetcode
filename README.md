@@ -26,6 +26,7 @@
 | 242 | Valid Anagram | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/242_valid_anagram.cpp) | make char freq arr. for chars in s increase freq 1 for chars in t decrease freq 1. <br />Check freq arr all elements 0 or not |
 | 347 | Top K Frequent Elements | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/347_top_k_frequent_elements.cpp) | add elements to map with frequency O(n) <br /> add map elements to vector then sort. O(nlogn) |
 | 427 | Construct Quad Tree | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/427_construct_quad_tree.cpp) | recursivevly create subtrees |
+| 443 | String Compression | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/443_string_compression.cpp) | Use two pointers. One pointer for modify arr and other pointer for count number of occurence for a char. Time O(n) Space O(1) where n is length of input array. |
 | 502 | IPO | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/502_ipo.cpp) | greedy problem use priority queue(max heap). Add projects which do not exceed the current capital(w) to pq. Pop the most profitable project(pq.top()), update w, reduce k. And do same while k > 0|
 | 530 | Minimum Absolute Difference In BST (same as 783)| [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/530_minimum_absolute_difference_in_BST.cpp) | inorder traversal. keep prev node's val. O(n) |
 | 540 | Single Element In A Sorted Array | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/540_single_element_in_a_sorted_array.cpp) | binary search. O(logn) |
