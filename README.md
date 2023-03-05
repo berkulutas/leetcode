@@ -41,6 +41,7 @@
 | 783 | Minimum Distance Between BST Nodes (same as 530) | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/783_minimum_distance_between_bts_nodes.cpp) | inorder traversal. keep prev node's val. O(n)|
 | 989 | Add to Array-Form of Integer | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/989_add_to_array-form_of_integer.cpp) | add from rightmost digit to leftmost |
 | 1011 | Capacity To Ship Packages Within D Days | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/1011_capacity_to_ship_packages_within_d_days.cpp) | (monotonic) binary search. find the minimum weight capacity that can transport all the packages in the given number of days by checking if a certain capacity is possible or not. |
+| 1345 | Jump Game IV | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/1345_jump_game_iv.cpp) | todo |
 | 1512 | Number of Good Pairs | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/1512_number_of_good_pairs.cpp) | check every pair |
 | 1524 | Number of Sub-arrays With Odd Sum | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/1524_number_of_subarrays_with_odd_sum.cpp) | check start and end odd |
 | 1675 | Minimize Deviation In Array | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/1675_minimize_deviation_in_array.cpp) | double all odd numbers and storing them in a max heap, and then repeatedly divide the maximum element in the heap by 2 and update the minimum element and the deviation until the maximum element becomes odd. O(nlogn)|
