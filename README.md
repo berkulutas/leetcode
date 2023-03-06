@@ -37,6 +37,7 @@
 | 540 | Single Element In A Sorted Array | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/540_single_element_in_a_sorted_array.cpp) | binary search. O(logn) |
 | 606 | Construct String From Binary Tree | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/606_construct_string_from_binary_tree.cpp) | preorder traversal. Time O(n) Space O(h). Where h is the height of binary tree. |
 | 652 | Find Duplicate Subtrees | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/652_find_duplicate_subtrees.cpp) | Write a function for make preorder traversal of tree in string form. Store preorder traversal of tree in map if any of subtrees found on tree this means it is duplicate put it on answer. Time O(n) Space O(n) where n number of nodes in the binary tree. |
+| 704 | Binary Search | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/704_binary_search.cpp) | simple binary search. Time O(logn) Space O(1) where n is size of the input arr. |
 | 746 | Min Cost Climbing Stairs | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/746_min_cost_climbing_stairs.cpp) | DP. Time O(n). Space O(1) |
 | 783 | Minimum Distance Between BST Nodes (same as 530) | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/783_minimum_distance_between_bts_nodes.cpp) | inorder traversal. keep prev node's val. O(n)|
 | 989 | Add to Array-Form of Integer | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/989_add_to_array-form_of_integer.cpp) | add from rightmost digit to leftmost |
