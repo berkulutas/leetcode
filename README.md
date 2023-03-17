@@ -20,6 +20,7 @@
 | 69 | Sqrt(x) | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/69_sqrt.cpp) | binary search O(logn) |
 | 70 | Climbing Stairs | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/70_climbing_stairs.cpp) | DP Time: O(n), Space O(1). |
 | 72 | Edit Distance | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/72_edit_distance.cpp) | DP. M = word1.len(), N = word2.len(). Time O(MxN) Space O(MxN) |
+| 94 | Binary Tree Inorder Traversal | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/94_binary_tree_inorder_traversal.cpp) | Recursive. Inorder traverse tree add nodes to result vector. Time O(n) Space O(m) where n is the number of nodes in tree and m is the height of tree(which can be n in worst case). |
 | 100 | Same Tree | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/100_same_tree.cpp) | Recursively check left and right childrens are equal. Time O(n)(since visited every node) Space O(n) (worst case completely unbalanced tree). |
 | 101 | Symmetric Tree | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/101_symmetric_tree.cpp) | Recursively check left child's right is equal to right child's left. Time O(n) (since visit every node) Space (logn) (since logn height of binary tree) where n is the number of nodes in the tree. |
 | 103 | Binary Tree Zigzag Level Order Traversal | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/103_binary_tree_zigzag_level_order_traversal.cpp) | level order traversal. if level is odd reverse the order. |
