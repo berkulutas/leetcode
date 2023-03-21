@@ -72,5 +72,6 @@
 | 1675 | Minimize Deviation In Array | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/1675_minimize_deviation_in_array.cpp) | double all odd numbers and storing them in a max heap, and then repeatedly divide the maximum element in the heap by 2 and update the minimum element and the deviation until the maximum element becomes odd. O(nlogn)|
 | 2187 | Minimum Time To Complete Trips | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/2187_minimum_time_to_complete_trips.cpp) | Binary search. Set left = 1 and r = min(time)\*totalTrips. Time O(nlog(m\*k)) Space O(1) |
 | 2236 | Root Equals Sum of Children | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/2236_root_equals_sum_of_children.cpp) | sum left and right child. check is it equal to root |
+| 2348 | Number Of Zero-Filled Subarrays | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/2348_number_of_zero-filled_subarrays.cpp) | Count consecutive zeros(conseqZero) once found a non zero num add conseqZero*(conseqZero+1)/2 since there is that much subarray. Time O(n) Space O(1) where n is the number of elements in input arr. |
 | 2444 | Count Subarrays With Fixed Bounds | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/2444_count_subarrays_with_fixed_bounds.cpp) | two pointers. Time O(n) Space O(1) where n is the length of input arr. |
 |---|---|---|---|
