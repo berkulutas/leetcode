@@ -22,6 +22,7 @@
 | 67 | Add Binary | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/67_add_binary.cpp) | go from rightmost to leftmost |
 | 69 | Sqrt(x) | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/69_sqrt.cpp) | binary search O(logn) |
 | 70 | Climbing Stairs | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/70_climbing_stairs.cpp) | DP Time: O(n), Space O(1). |
+| 71 | Simplifiy Path | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/71_simplifiy_path.cpp) | Time O(n) Space O(n). |
 | 72 | Edit Distance | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/72_edit_distance.cpp) | DP. M = word1.len(), N = word2.len(). Time O(MxN) Space O(MxN) |
 | 83 | Remove Duplicates From Sorted List | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/83_remove_duplicates_from_sorted_list.cpp) | Trave list with a pointer while next of pointer not null and same val with current node remove it from list. Time O(n) Space O(1) where n is the number of nodes in list. |
 | 94 | Binary Tree Inorder Traversal | [c++](https://github.com/berkulutas/leetcode/blob/main/cpp/94_binary_tree_inorder_traversal.cpp) | Recursive. Inorder traverse tree add nodes to result vector. Time O(n) Space O(m) where n is the number of nodes in tree and m is the height of tree(which can be n in worst case). |
